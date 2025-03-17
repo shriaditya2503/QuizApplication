@@ -1,0 +1,102 @@
+[
+  {
+    "questionText": "Which Spring feature allows objects to receive their dependencies at runtime?",
+    "correctAnswer": "Dependency Injection (DI)",
+    "options": [
+      "Aspect-Oriented Programming (AOP)",
+      "Dependency Injection (DI)",
+      "Bean Scoping",
+      "Transaction Management"
+    ]
+  },
+  {
+    "questionText": "What is the function of the Spring IoC container?",
+    "correctAnswer": "To manage beans and their lifecycles",
+    "options": [
+      "To execute SQL queries",
+      "To manage beans and their lifecycles",
+      "To compile Java code",
+      "To establish database connections"
+    ]
+  },
+  {
+    "questionText": "Which annotation is used to define a Spring-managed component?",
+    "correctAnswer": "@Component",
+    "options": [
+      "@SpringBootApplication",
+      "@Component",
+      "@Entity",
+      "@Service"
+    ]
+  },
+  {
+    "questionText": "Which of the following is not a module in the Spring Framework?",
+    "correctAnswer": "Spring NeuralNet",
+    "options": [
+      "Spring Core",
+      "Spring ORM",
+      "Spring NeuralNet",
+      "Spring Boot"
+    ]
+  },
+  {
+    "questionText": "What does @Autowired in Spring do?",
+    "correctAnswer": "Automatically injects dependencies into beans",
+    "options": [
+      "Configures database properties",
+      "Automatically injects dependencies into beans",
+      "Initializes the Spring application",
+      "Logs application events"
+    ]
+  },
+  {
+    "questionText": "Which file typically contains the Spring application context configuration?",
+    "correctAnswer": "context.xml",
+    "options": [
+      "application.yaml",
+      "application.properties",
+      "context.xml",
+      "web.xml"
+    ]
+  },
+  {
+    "questionText": "Which of these best describes Spring Boot?",
+    "correctAnswer": "A framework for simplifying Spring application development",
+    "options": [
+      "A lightweight database management system",
+      "A framework for simplifying Spring application development",
+      "A library for machine learning",
+      "A compiler for Java code"
+    ]
+  },
+  {
+    "questionText": "What is the default server used in Spring Boot applications?",
+    "correctAnswer": "Tomcat",
+    "options": [
+      "Apache HTTP Server",
+      "Tomcat",
+      "Jetty",
+      "Undertow"
+    ]
+  },
+  {
+    "questionText": "What is the role of Spring MVC in the Spring Framework?",
+    "correctAnswer": "To implement Model-View-Controller architecture for web apps",
+    "options": [
+      "To handle dependency injection",
+      "To manage database transactions",
+      "To implement Model-View-Controller architecture for web apps",
+      "To enable RESTful APIs"
+    ]
+  },
+  {
+    "questionText": "Which annotation is used to specify the entry point of a Spring Boot application?",
+    "correctAnswer": "@SpringBootApplication",
+    "options": [
+      "@Component",
+      "@EnableAutoConfiguration",
+      "@SpringBootApplication",
+      "@RestController"
+    ]
+  } 
+]

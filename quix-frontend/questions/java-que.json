@@ -1,0 +1,102 @@
+[
+  {
+    "questionText": "What is the primary purpose of the main method in Java?",
+    "correctAnswer": "To execute the program",
+    "options": [
+      "To compile the program",
+      "To execute the program",
+      "To define constants",
+      "To initialize objects"
+    ]
+  },
+  {
+    "questionText": "Which of the following keywords is used to inherit a class in Java?",
+    "correctAnswer": "extend",
+    "options": [
+      "extend",
+      "implements",
+      "inherits",
+      "superclass"
+    ]
+  },
+  {
+    "questionText": "Which Java feature ensures that objects are defined with a combination of data and behavior?",
+    "correctAnswer": "Encapsulation",
+    "options": [
+      "Polymorphism",
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance"
+    ]
+  },
+  {
+    "questionText": "What is the default value of an int in Java?",
+    "correctAnswer": "0",
+    "options": [
+      "0",
+      "null",
+      "undefined",
+      "1"
+    ]
+  },
+  {
+    "questionText": "Which access modifier allows visibility only within the same class?",
+    "correctAnswer": "private",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default"
+    ]
+  },
+  {
+    "questionText": "What does the term 'platform independence' mean in Java?",
+    "correctAnswer": "Java code can run on any operating system without modification",
+    "options": [
+      "Java code can run on any operating system without modification",
+      "Java programs do not need compilation",
+      "Java uses native machine code",
+      "Java does not require a JVM"
+    ]
+  },
+  {
+    "questionText": "Which of the following is not a primitive data type in Java?",
+    "correctAnswer": "String",
+    "options": [
+      "int",
+      "float",
+      "char",
+      "String"
+    ]
+  },
+  {
+    "questionText": "What is the function of the final keyword in Java?",
+    "correctAnswer": "To define constants and prevent modification",
+    "options": [
+      "To create abstract classes",
+      "To define constants and prevent modification",
+      "To inherit classes",
+      "To initialize variables lazily"
+    ]
+  },
+  {
+    "questionText": "Which method is called first when a Java application starts?",
+    "correctAnswer": "main()",
+    "options": [
+      "init()",
+      "main()",
+      "run()",
+      "start()"
+    ]
+  },
+  {
+    "questionText": "Which of these is NOT a valid Java loop?",
+    "correctAnswer": "repeat",
+    "options": [
+      "for",
+      "do-while",
+      "foreach",
+      "repeat"
+    ]
+  }
+]

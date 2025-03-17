@@ -1,0 +1,5 @@
+# Created at 2025-03-11T00:13:29.561
+Boot Manifest-JAR contains absolute paths in classpath 'D:\JAVA Fullstack\Projects\Quiz Application\Quiz-App\quiz\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

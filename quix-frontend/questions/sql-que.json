@@ -1,0 +1,22 @@
+[
+  {
+    "questionText": "What does the SELECT statement do in SQL?",
+    "correctAnswer": "Retrieves data from a database",
+    "options": [
+      "Inserts new data into a table",
+      "Deletes existing data from a table",
+      "Retrieves data from a database",
+      "Modifies table structure"
+    ]
+  },
+  {
+    "questionText": "Which SQL command is used to remove all rows from a table without deleting the table itself?",
+    "correctAnswer": "TRUNCATE",
+    "options": [
+      "DELETE",
+      "DROP",
+      "TRUNCATE",
+      "CLEAR"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!--Landing Page-->
+    <section class="landing-page">
+
+        <div class="wrapper">
+            <div class="flex-content">
+                <h1 class="vacation-heading">Welcome To Master Quiz</h1>
+                <a href="#quiz-packages" class="btn">Start Now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--header section-->
+    <header class="quiz-header" id="quiz-header">
+        <h1 class="heading">Master Quiz</h1>
+    </header>
+
+    <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#quiz-packages">Quiz</a>
+        <a href="#Performer">Top Performers</a>
+        <a href="#notes">Notes</a>
+    </nav>
+
+
+    <section class="quiz-packages-section" id="quiz-packages">
+        <h1 class="quiz-heading">Coding Quiz</h1>
+        <div class="package-wrapper">
+            <div class="package-card">
+                <img src=".//images/java.png" alt="">
+                <p class="card-heading">Java</p>
+                <p class="card-text">Core Java | Easy level</p>
+                <button class="btn" onclick="startQuiz('java')">Take Quiz</button>
+            </div>
+            
+            <div class="package-card">
+                <img src=".//images/spring.png" alt="">
+                <p class="card-heading">Spring</p>
+                <p class="card-text">Spring Boot | Easy level</p>
+                <button class="btn" onclick="startQuiz('spring')">Take Quiz</button>
+            </div>
+
+            <div class="package-card">
+                <img src=".//images/sql.png" alt="">
+                <p class="card-heading">SQL</p>
+                <p class="card-text">Basic SQL | Easy level</p>
+                <button class="btn" onclick="startQuiz('sql')">Take Quiz</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="Performer-quiz-section" id="Performer">
+        <h1 class="quiz-heading">Top Performers</h1>
+        <p class="quiz-text">Our top performers are the brightest minds who have consistently excelled in our quizzes, showcasing their expertise and dedication. They represent the pinnacle of knowledge across various subjects like Java, Python, and more. With impressive scores, they set the benchmark for others to follow and inspire the entire community to strive for excellence</p>
+        <div class="image-card">
+            <a href="https://www.linkedin.com/in/deepesh-prajapati-4248a1244" target="_blank">
+                <img  src=".//images/m1.jpg" alt="" >
+            </a>
+            <!-- <img src=".//images/m1.jpg" alt=""> -->
+            <img src=".//images/m2.png" alt="">
+            <img src=".//images/m3.jpeg" alt="">
+            <img src=".//images/m4.png" alt="">
+            <img src=".//images/m5.jpg" alt="">
+            <img src=".//images/m6.jpeg" alt="">
+        </div>
+        
+    </section>
+
+    
+    <section class="notes-section" id="notes">
+        <h1 class="quiz-heading">Subject Notes</h1>
+        <div class="notes-div">
+            <!-- Java Notes -->
+            <div class="notes-wrapper">
+                <a href="./pdfs/java-notes.pdf#toolbar=0" target="_blank">
+                    <img src="./images/java.png" alt="Java Notes">
+                </a>
+            </div>
+            
+            <!-- Spring Notes -->
+            <div class="notes-wrapper">
+                <a href="./pdfs/spring-notes.pdf#toolbar=0" target="_blank">
+                    <img src="./images/spring.png" alt="Spring Notes">
+                </a>
+            </div>
+            
+            <!-- SQL Notes -->
+            <div class="notes-wrapper">
+                <a href="./pdfs/sql-notes.pdf#toolbar=0" target="_blank">
+                    <img src="./images/sql.png" alt="SQL Notes">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer-section">
+        <small>All Rights Reserved<br><br></small>
+        <small>Developed & Maintained By<br><br></small>
+        <small style="color: aliceblue;">
+            <a href="https://www.linkedin.com/in/aditya-shrivastava-367a02263" target="_blank" style="color: aliceblue;">Aditya</a>   |   
+            <a href="https://www.linkedin.com/in/anubhav-saxena-0bb1a7226" target="_blank"style="color: aliceblue;">Anubhav</a>   |   
+            <a href="https://www.linkedin.com/in/deepesh-prajapati-4248a1244" target="_blank"style="color: aliceblue;">Deepesh</a>
+        </small>
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
